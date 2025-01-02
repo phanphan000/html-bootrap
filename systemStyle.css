@@ -1,0 +1,58 @@
+/* OVERWRITE BS5 */
+
+/* VARIABLES */
+:root{
+    --bs-primary-rgb: 255,99,0;
+    --bs-link-hover-color-rgb: 255,99,0;
+}
+
+/* Typo */
+.title-lg{
+    font-size: 64px;
+    line-height: auto;
+}
+.title-md{
+    font-size: 40px;
+    line-height: auto;
+}
+.title-normal{
+    font-size: 24px;
+    line-height: auto;
+}
+.content-lg{
+    font-size: 24px;
+    line-height: auto;
+}
+.content-md{
+    font-size: 18px;
+    line-height: auto;
+}
+.content-normal{
+    font-size: 16px;
+    line-height: auto;
+}
+
+.title-xxl{
+    font-size: 100px;
+    line-height: 90px;
+}
+
+.w-fit{
+    width: fit-content;
+}
+
+.hover-text-primary:hover{
+    color: rgb(var(--bs-primary-rgb))!important;
+}
+
+/* DIM */
+@media (min-width: 1500px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1470px;
+    }
+}
+
+/* Fonts */
+* {
+    font-family: "Poppins", serif;
+  }

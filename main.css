@@ -1,0 +1,19 @@
+.nav-link{
+    padding: 10px!important;
+}
+.download-btn{
+    padding: 10px 24px!important;
+}
+.header-navbar{
+    gap: 40px;
+}
+.navbar{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.gap-section{
+    margin-bottom: 64px;
+}
+.about-me__desc{
+    letter-spacing: 1px;
+}
